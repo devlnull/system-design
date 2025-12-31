@@ -1,4 +1,4 @@
-# System Design Lab
+# System Design Lab <img src="favicon.png" alt="Icon" width="18" height="18" />
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen) ![Focus](https://img.shields.io/badge/focus-system%20design-blue) ![Format](https://img.shields.io/badge/format-templates%20%26%20case%20studies-orange)
 
