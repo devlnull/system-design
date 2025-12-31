@@ -3,7 +3,7 @@ System Design Framework: README
 Fill in sections marked with [TBD].
 -->
 
-# <img src="favicon.png" alt="Icon" width="28" height="28" /> System Design Overview
+# <img src="assets/favicon.png" alt="Icon" width="28" height="28" /> System Design Overview
 
 ## Problem Statement
 - [TBD] One paragraph describing the user problem and why it matters.
