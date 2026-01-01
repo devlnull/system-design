@@ -6,7 +6,7 @@ Fill in sections marked with [TBD].
 # High-Level Design
 
 ## Architecture Overview
-- [TBD] Diagram reference or textual overview of major components.
+<img src="assets/email-service-provider-high-level-design.svg" alt="High Level Design"/>
 
 ## Components
 ### Client Layer
