@@ -15,6 +15,17 @@ Fill in sections marked with [TBD].
 ### Non-Functional Requirements (High Level)
 - [TBD] Latency, availability, durability, throughput, scale, security.
 
+- **Inputs to estimate**: target geography, DAU/MAU, average sessions per user per day, average session length, requests per session, read/write ratio, payload sizes, data retention window.
+- **Core traffic metrics**:
+  - **QPS/TPS**: `(DAU * sessions_per_user_per_day * requests_per_session) / 86,400`
+  - **Peak QPS/TPS**: `avg QPS * peak_factor` (e.g., 3-10x depending on product)
+  - **CCU**: `DAU * (avg_session_length_seconds / 86,400) * sessions_per_user_per_day`
+- **Data volume**:
+  - **Daily writes**: `DAU * sessions_per_user_per_day * writes_per_session`
+  - **Daily storage growth**: `daily_writes * avg_payload_size`
+  - **Total storage**: `daily_growth * retention_days` (include indexes + replication)
+- **Other factors to call out**: latency targets, availability SLA, fanout amplification, cache hit rate, and burst handling strategy.
+
 ## Goals and Non-Goals
 ### Goals
 - [TBD] What success looks like for this system.
