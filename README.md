@@ -21,7 +21,7 @@ A collection of system design projects and templates that turn vague ideas into 
 
 | Project | Description | Status | Link |
 | --- | --- | --- | --- |
-| Email Service Provider | Multi-tenant email delivery platform design covering requirements, architecture, and deep dives into scalability and reliability. | In progress | [email-service-provider](email-service-provider/readme.md) |
+| Email Service Provider | Multi-tenant email delivery platform design covering requirements, architecture, and deep dives into scalability and reliability. | In progress | [email-service-provider](https://github.com/devlnull/email-service-provider) |
 
 ## Repository layout
 - `email-service-provider/` - Full project: requirements, architecture, deep dives, and assets.
